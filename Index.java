@@ -13,7 +13,9 @@ public class Index{
     System.out.println("4. shadowing");
     System.out.println("5. overloading");
     System.out.println("6. Reverse Digits");
-    System.out.println("7.Exit");
+    System.out.println("7. FirstArray");
+    System.out.println("8. SecondArray");
+    System.out.println("9.Exit");
 
     System.out.print("Choice: ");
     int choice = input.nextInt();
@@ -34,26 +36,35 @@ public class Index{
         System.out.println();
         Methods.main(null);
         break;
-       case 4:
+      case 4:
 	    System.out.println("Shadowing lab exercise");
 		System.out.println();
 		Shadow.main(null);
         break;
-       case 5:
+      case 5:
 	    System.out.println("Overloading lab exercise");
 		System.out.println();
 		Arithmetic.main(null);
         break;
-        case 6:
+      case 6:
 	    System.out.println("Reverse Digits lab exercise");
 	    System.out.println();
 	    Reverse.main(null);
         break;
-       case 7:
+      case 7:
+	    System.out.println("First Array lab exercice");
+		System.out.println();
+		FirstArray.main(null);
+        break;
+      case 8:
+		System.out.println("Exiting");
+		System.out.println();
+		SecondArray.main(null);
+        break;
+      case 9:
 	    System.out.println("Exiting");
 		System.out.println();
-
-        break;
+       break;
       default:
         System.out.println("Invalid choice");
         break;
