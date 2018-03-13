@@ -65,7 +65,7 @@ public class Index{
 	    System.out.println("Exiting");
 		System.out.println();
        break;
-      default:
+       default:
         System.out.println("Invalid choice");
         break;
     }
