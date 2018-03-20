@@ -15,7 +15,10 @@ public class Index{
     System.out.println("6. Reverse Digits");
     System.out.println("7. FirstArray");
     System.out.println("8. SecondArray");
-    System.out.println("9.Exit");
+    System.out.println("9. SearchStudent");
+    System.out.println("10. TryCatch");
+    System.out.println("11. EnhancedFor");
+    System.out.println("12.Exit");
 
     System.out.print("Choice: ");
     int choice = input.nextInt();
@@ -52,7 +55,7 @@ public class Index{
 	    Reverse.main(null);
         break;
       case 7:
-	    System.out.println("First Array lab exercice");
+	    System.out.println("First Array lab exercise");
 		System.out.println();
 		FirstArray.main(null);
         break;
@@ -62,8 +65,19 @@ public class Index{
 		SecondArray.main(null);
         break;
       case 9:
-	    System.out.println("Exiting");
-		System.out.println();
+	   	 System.out.println("SearchStudent lab exercise");
+	     System.out.println();
+	     SearchStudent.main(null);
+       break;
+       case 10:
+	   	 System.out.println("TryCatch Lab Exercise");
+	   	 System.out.println();
+	   	 TryCatch.main(null);
+       break;
+       case 11:
+		 System.out.println("EnhancedFor lab exercise");
+		 System.out.println();
+		 EnhancedFor.main(null);
        break;
        default:
         System.out.println("Invalid choice");
