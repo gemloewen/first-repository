@@ -18,7 +18,9 @@ public class Index{
     System.out.println("9. SearchStudent");
     System.out.println("10. TryCatch");
     System.out.println("11. EnhancedFor");
-    System.out.println("12.Exit");
+    System.out.println("12. Search");
+    System.out.println("13. Convert");
+    System.out.println("14.Exit");
 
     System.out.print("Choice: ");
     int choice = input.nextInt();
@@ -78,6 +80,16 @@ public class Index{
 		 System.out.println("EnhancedFor lab exercise");
 		 System.out.println();
 		 EnhancedFor.main(null);
+       break;
+       case 12:
+	   	 System.out.println("Search Lab Exercise");
+	   	 System.out.println();
+	   	 Search.main(null);
+	   break;
+	   case 13:
+	     System.out.println("Convert lab exercise");
+	   	 System.out.println();
+	   	 Convert.main(null);
        break;
        default:
         System.out.println("Invalid choice");
